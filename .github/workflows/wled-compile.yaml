@@ -1,0 +1,3 @@
+[env:custom_build]
+extends = env:nodemcuv2
+build_flags = ${env:nodemcuv2.build_flags} -D WLED_ENABLE_MQTT -D CLIENT_SSID='"Dzialkowa50b"' -D CLIENT_PASS='"zaqwsx123"' -D USERMOD_MULTI_RELAY
